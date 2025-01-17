@@ -15,6 +15,7 @@ This project is designed for beginners who are familiar with the basics of SQL a
 
 ## SQL Mentor User Performance Dataset
 The dataset consists of information about user submissions for an online learning platform. Each submission includes:
+
 **User ID**
 
 **Question ID**
@@ -53,3 +54,30 @@ Here are the SQL problems that you will solve as part of this project:
 **Description:** Identify the top 10 users with the highest total points earned each week.
 
 **Expected Output:** A report showing the top 10 users ranked by total points per week.
+
+
+ ## Key SQL Concepts Covered
+**Aggregation:** Using COUNT, SUM, AVG to aggregate data.
+
+**Date Functions:** Using EXTRACT() and TO_CHAR() for manipulating dates.
+
+**Conditional Aggregation:** Using CASE WHEN to handle positive and negative submissions.
+
+**Ranking:** Using DENSE_RANK() to rank users based on their performance.
+
+**Group By:** Aggregating results by groups (e.g., by user, by day, by week).
+
+ ## SQL Queries Solutions 
+ Below are the solutions for each question in this project:
+
+  ## Q.1 List all distinct users and their stats (return user_name, total_submissions, points earned)
+``` sql
+SELECT
+		USERNAME,
+		COUNT(ID) AS TOTAL_SUBMISSIONS,
+		SUM(POINTS)AS TOTAL_POINTS
+FROM USER_SUBMISSIONS
+GROUP BY 1
+ORDER BY 2 DESC
+
+```
