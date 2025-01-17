@@ -73,9 +73,9 @@ Here are the SQL problems that you will solve as part of this project:
   ## Q.1 List all distinct users and their stats (return user_name, total_submissions, points earned)
 ``` sql
 SELECT
-		USERNAME,
-		COUNT(ID) AS TOTAL_SUBMISSIONS,
-		SUM(POINTS)AS TOTAL_POINTS
+	USERNAME,
+	COUNT(ID) AS TOTAL_SUBMISSIONS,
+	SUM(POINTS)AS TOTAL_POINTS
 FROM USER_SUBMISSIONS
 GROUP BY 1
 ORDER BY 2 DESC
