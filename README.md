@@ -1,6 +1,6 @@
 # SQL_MENTOR_USER-PERFORMANCE-ANALYSIS
 ## THIS PROJECT IS  FOR OVERVIEW OF THE SQL  COMMANDS FOR BEGINNERS
-![SQL-MENTOR-BANNER-IMAGE]{![Unknown-5](https://github.com/user-attachments/assets/b700210b-e831-4a19-aac5-27d521c7d72b)}
+![Unknown-5](https://github.com/user-attachments/assets/b700210b-e831-4a19-aac5-27d521c7d72b)
 
 # Project Overview
 This project is designed to help beginners understand SQL querying and performance analysis using real-time data from SQL Mentor datasets. In this project, you will analyze user performance by creating and querying a table of user submissions. The goal is to solve a series of SQL problems to extract meaningful insights from user data.
