@@ -16,10 +16,15 @@ This project is designed for beginners who are familiar with the basics of SQL a
 ## SQL Mentor User Performance Dataset
 The dataset consists of information about user submissions for an online learning platform. Each submission includes:
 **User ID**
+
 **Question ID**
+
 **Points Earned**
+
 **Submission Timestamp**
+
 **Username**
+
 This data allows you to analyze user performance in terms of correct and incorrect submissions, total points earned, and daily/weekly activity.
 
 ## SQL Problems and Questions
